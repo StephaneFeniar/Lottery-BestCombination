@@ -35,25 +35,18 @@ Let's imagine a fake lottery. the **LoToTo**:
 
 The Lototo organizer has computed for each combination the proportion of players who played it since the launch of the Lototo:
 
-
-
-```r
-LoToTo.PlayingFrequency
-```
-
-```
-      1st Number 2nd Number Players' proportion who played combination
- [1,]          1          2                                       0.20
- [2,]          1          3                                       0.15
- [3,]          1          4                                       0.15
- [4,]          1          5                                       0.05
- [5,]          2          3                                       0.15
- [6,]          2          4                                       0.10
- [7,]          2          5                                       0.05
- [8,]          3          4                                       0.05
- [9,]          3          5                                       0.05
-[10,]          4          5                                       0.05
-```
+| 1st Number| 2nd Number| Players' proportion who played combination|
+|----------:|----------:|------------------------------------------:|
+|          1|          2|                                       0.20|
+|          1|          3|                                       0.15|
+|          1|          4|                                       0.15|
+|          1|          5|                                       0.05|
+|          2|          3|                                       0.15|
+|          2|          4|                                       0.10|
+|          2|          5|                                       0.05|
+|          3|          4|                                       0.05|
+|          3|          5|                                       0.05|
+|          4|          5|                                       0.05|
 Some of the 10 combinations are more played than others, because people are not creative:
 * Combination [1-2] is the most played *(20% of the players played this combination)*
 * Combinations [2-5] [3-4] [3-5] and [4-5] are the less played *(5% of the players played each of these combination)*
