@@ -5,7 +5,7 @@ How to choose your lottery numbers ?
 
 The goal of this analysis is to optimize winnings of a lottery by playing the less played combination and reducing the probability to share the winnings.
 
-![Imgur](http://i.imgur.com/NurFBxr.png)
+![Imgur](http://i.imgur.com/TaNSZee.png)
 
 ## How ?
 
