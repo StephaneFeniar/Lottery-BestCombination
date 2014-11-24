@@ -64,7 +64,7 @@ This is why we're gonna try to estimate these playing frequencies by studying th
 For each draw we have:
 *  A draw Id
 *  The 2 winning numbers : 1st Number & 2nd Number
-*  The ticket's frequency with 0, 1, and 2 matches
+*  The proportion of tickets with 0, 1, and 2 matches
 
 | DrawId| 1st Number| 2nd Number| Tickets 0 match| Tickets 1 match| Tickets 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
