@@ -33,7 +33,7 @@ Let's imagine a fake lottery, the **Lototo**:
 * 2 numbers to pick among 5 numbers *(from 1 to 5)* .
 * 10 combinations possibles : [1-2] [1-3] [1-4] [1-5] [2-3] [2-4] [2-5] [3-4] [3-5] [4-5]
 
-The Lototo organizer know for each combination the frequency of tickets played on it:
+The Lototo organizer know for each combination the frequency of tickets played on it *(played requency)*:
 
 | 1st Number| 2nd Number| Tickets' frequency|
 |----------:|----------:|-------------------:|
@@ -119,61 +119,35 @@ We can see our estimator is more accurate than the naive one :
 
 If we do the same with the results of the 3 past draws we obtain these 3 estimators:
 
-
-
-```r
-LoToTo.PlayingFreqEstimation.UsingAllDrawResults
-```
-
-```
-      1st Number 2nd Number Real Frequency Est. using 1st Draw Result
- [1,]          1          2           0.20                       0.10
- [2,]          1          3           0.15                       0.10
- [3,]          1          4           0.15                       0.15
- [4,]          1          5           0.05                       0.10
- [5,]          2          3           0.15                       0.08
- [6,]          2          4           0.10                       0.10
- [7,]          2          5           0.05                       0.08
- [8,]          3          4           0.05                       0.10
- [9,]          3          5           0.05                       0.08
-[10,]          4          5           0.05                       0.10
-      Est. using 2nd Draw Result Est. using 3rd Draw Result
- [1,]                       0.17                       0.20
- [2,]                       0.17                       0.11
- [3,]                       0.08                       0.11
- [4,]                       0.08                       0.11
- [5,]                       0.17                       0.08
- [6,]                       0.08                       0.11
- [7,]                       0.08                       0.11
- [8,]                       0.08                       0.11
- [9,]                       0.08                       0.05
-[10,]                       0.05                       0.05
-```
+| 1st Number| 2nd Number| Real Frequency| Est. using 1st Draw Result| Est. using 2nd Draw Result| Est. using 3rd Draw Result|
+|----------:|----------:|--------------:|--------------------------:|--------------------------:|--------------------------:|
+|          1|          2|           0.20|                       0.10|                       0.17|                       0.20|
+|          1|          3|           0.15|                       0.10|                       0.17|                       0.11|
+|          1|          4|           0.15|                       0.15|                       0.08|                       0.11|
+|          1|          5|           0.05|                       0.10|                       0.08|                       0.11|
+|          2|          3|           0.15|                       0.08|                       0.17|                       0.08|
+|          2|          4|           0.10|                       0.10|                       0.08|                       0.11|
+|          2|          5|           0.05|                       0.08|                       0.08|                       0.11|
+|          3|          4|           0.05|                       0.10|                       0.08|                       0.11|
+|          3|          5|           0.05|                       0.08|                       0.08|                       0.05|
+|          4|          5|           0.05|                       0.10|                       0.05|                       0.05|
 
 Let's aggregate these 3 estimators into a single stronger estimator like a RandomForest aggregate several decision trees.
 
 There is a several way to aggregate these 3 estimators (See Next-Steps) but here we sill simply aggregate them by doing a simple mean of their individual estimation: Est. aggregated = (Est. using 1st Draw Result + Est. using 2nd Draw Result +  Est. using 3rd Draw Result) /3
 
-
-
-```r
-LoToTo.PlayingFreqEstimation.UsingAllDrawResults.Aggregated
-```
-
-```
-      1st Number 2nd Number Real Frequency Aggregated Est.
- [1,]          1          2           0.20            0.16
- [2,]          1          3           0.15            0.13
- [3,]          1          4           0.15            0.11
- [4,]          1          5           0.05            0.10
- [5,]          2          3           0.15            0.11
- [6,]          2          4           0.10            0.10
- [7,]          2          5           0.05            0.09
- [8,]          3          4           0.05            0.10
- [9,]          3          5           0.05            0.07
-[10,]          4          5           0.05            0.07
-```
-
+| 1st Number| 2nd Number| Real Frequency| Aggregated Est.|
+|----------:|----------:|--------------:|---------------:|
+|          1|          2|           0.20|            0.16|
+|          1|          3|           0.15|            0.13|
+|          1|          4|           0.15|            0.11|
+|          1|          5|           0.05|            0.10|
+|          2|          3|           0.15|            0.11|
+|          2|          4|           0.10|            0.10|
+|          2|          5|           0.05|            0.09|
+|          3|          4|           0.05|            0.10|
+|          3|          5|           0.05|            0.07|
+|          4|          5|           0.05|            0.07|
 
 We can see our new estimator using all the past lottery results is even more accurate than the estimator using only the last lottery result: 
 
