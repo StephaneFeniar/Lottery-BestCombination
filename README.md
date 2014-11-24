@@ -70,7 +70,7 @@ This is why we're gonna try to estimate these playing frequencies by studying th
 
 #### Estimation by studying one draw result
 
-For instance let's **study the 1st draw**:
+For instance let's study the **1st draw**:
 
 | DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency with 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
