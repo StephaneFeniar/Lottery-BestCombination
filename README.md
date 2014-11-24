@@ -35,7 +35,7 @@ Let's imagine a fake lottery, the **Lototo**:
 
 The Lototo organizer know for each combination the frequency of tickets played on it *(played requency)*:
 
-| 1st Number| 2nd Number| Tickets' frequency|
+| 1st Number| 2nd Number| Playing frequency|
 |----------:|----------:|-------------------:|
 |          1|          2|                0.20|
 |          1|          3|                0.15|
@@ -66,7 +66,7 @@ For each draw we have:
 *  The 2 winning numbers : 1st Number & 2nd Number *(in an ascending order)*
 *  The proportion of tickets with 0, 1, and 2 matches
 
-| DrawId| 1st Number| 2nd Number| Tickets 0 match| Tickets 1 match| Tickets 2 matches|
+| DrawId| 1st Number| 2nd Number|  0 match|  1 match|  2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 |      2|          4|          5|                       0.50|                       0.45|                              0.05|
@@ -77,7 +77,7 @@ For each draw we have:
 
 For instance let's study the **1st draw**:
 
-| DrawId| 1st Number| 2nd Number| Ticket 0 match| Ticket 1 match| Ticket 2 matches|
+| DrawId| 1st Number| 2nd Number|  0 match| 1 match| 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 
