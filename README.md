@@ -52,7 +52,7 @@ Some of the 10 combinations are more played than others, because people are not 
 * Combination [1-2] is the most played *(20% of the tickets)*
 * Combinations [2-5] [3-4] [3-5] and [4-5] are the less played *(5% of the tickets)*
 
-If we want to reduce the risk of sharing the winnings, we should played one of the less played : [2-5], [3-4], [3-5], [4-5] 
+If we want to reduce the risk of sharing the winnings, we should played: [2-5], [3-4], [3-5] or [4-5] 
 
 ### Estimation of the playing frequency of each combination
 
