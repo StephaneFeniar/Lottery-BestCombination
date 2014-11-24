@@ -1,6 +1,6 @@
 How to choose your lottery numbers ? 
 ========================================================
-![I don't always win at the lottery, but when I do ...](http://i.imgur.com/CSef7LP.jpg)
+![I don't always win at the lottery, but when I do ...](http://i.imgur.com/HNBglDx.png)
 
 # Overview
 
