@@ -1,5 +1,6 @@
-Optimize your lottery winnings by picking the right numbers
+How to choose your lottery numbers ? 
 ========================================================
+![I don't always win at the lottery, but when I do ...](http://i.imgur.com/CSef7LP.jpg)
 
 # Overview
 
@@ -561,4 +562,4 @@ This section in under cunstruction
   + Do the analysis like we did and recover an estimated  playing frequency for each combination.
   + Redo the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
 
-![I don't always win at the lottery, but when I do ...](http://i.imgur.com/CSef7LP.jpg)
+
