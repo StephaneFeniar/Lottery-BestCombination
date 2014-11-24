@@ -33,20 +33,20 @@ Let's imagine a fake lottery. the **LoToTo**:
 * 2 numbers to pick among 5 numbers (1, 2, 3, 4, 5) .
 * 10 combinations possibles : [1-2] [1-3] [1-4] [1-5] [2-3] [2-4] [2-5] [3-4] [3-5] [4-5]
 
-The Lototo organizer has computed for each combination the proportion of players who played it since the launch of the Lototo:
+The LoToTo organizer know for each combination the proportion of tickets played on it:
 
-| 1st Number| 2nd Number| Players' proportion who played combination|
-|----------:|----------:|------------------------------------------:|
-|          1|          2|                                       0.20|
-|          1|          3|                                       0.15|
-|          1|          4|                                       0.15|
-|          1|          5|                                       0.05|
-|          2|          3|                                       0.15|
-|          2|          4|                                       0.10|
-|          2|          5|                                       0.05|
-|          3|          4|                                       0.05|
-|          3|          5|                                       0.05|
-|          4|          5|                                       0.05|
+| 1st Number| 2nd Number| Tickets' proportion|
+|----------:|----------:|-------------------:|
+|          1|          2|                0.20|
+|          1|          3|                0.15|
+|          1|          4|                0.15|
+|          1|          5|                0.05|
+|          2|          3|                0.15|
+|          2|          4|                0.10|
+|          2|          5|                0.05|
+|          3|          4|                0.05|
+|          3|          5|                0.05|
+|          4|          5|                0.05|
 Some of the 10 combinations are more played than others, because people are not creative:
 * Combination [1-2] is the most played *(20% of the players played this combination)*
 * Combinations [2-5] [3-4] [3-5] and [4-5] are the less played *(5% of the players played each of these combination)*
