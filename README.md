@@ -33,9 +33,9 @@ Let's imagine a fake lottery, the **Lototo**:
 * 2 numbers to pick among 5 numbers *(from 1 to 5)* .
 * 10 combinations possibles : [1-2] [1-3] [1-4] [1-5] [2-3] [2-4] [2-5] [3-4] [3-5] [4-5]
 
-The Lototo organizer know for each combination the proportion of tickets played on it:
+The Lototo organizer know for each combination the frequency of tickets played on it:
 
-| 1st Number| 2nd Number| Tickets' proportion|
+| 1st Number| 2nd Number| Tickets' frequency|
 |----------:|----------:|-------------------:|
 |          1|          2|                0.20|
 |          1|          3|                0.15|
@@ -72,7 +72,7 @@ This is why we're gonna try to estimate these playing frequencies by studying th
 
 For instance let's study the **1st draw**:
 
-| DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency 2 matches|
+| DrawId| 1st Number| 2nd Number| Ticket 0 match| Ticket 1 match| Ticket 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 
