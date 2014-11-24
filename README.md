@@ -49,8 +49,8 @@ The LoToTo organizer know for each combination the proportion of tickets played 
 |          4|          5|                0.05|
 
 Some of the 10 combinations are more played than others, because people are not creative:
-* Combination [1-2] is the most played *(20% of the players played this combination)*
-* Combinations [2-5] [3-4] [3-5] and [4-5] are the less played *(5% of the players played each of these combination)*
+* Combination [1-2] is the most played *(20% of the tickets)*
+* Combinations [2-5] [3-4] [3-5] and [4-5] are the less played *(5% of the tickets)*
 
 If we want to reduce the risk of sharing the winnings, we should played one of the less played : [2-5], [3-4], [3-5], [4-5] 
 
