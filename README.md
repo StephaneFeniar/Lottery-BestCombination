@@ -28,12 +28,12 @@ A comparaison of these approaches is availabe at the end.
 
 ## Illustrative example
 
-Let's imagine a fake lottery, the **LoToTo**:
+Let's imagine a fake lottery, the **Lototo**:
 
 * 2 numbers to pick among 5 numbers *(from 1 to 5)* .
 * 10 combinations possibles : [1-2] [1-3] [1-4] [1-5] [2-3] [2-4] [2-5] [3-4] [3-5] [4-5]
 
-The LoToTo organizer know for each combination the proportion of tickets played on it:
+The Lototo organizer know for each combination the proportion of tickets played on it:
 
 | 1st Number| 2nd Number| Tickets' proportion|
 |----------:|----------:|-------------------:|
@@ -96,7 +96,7 @@ Let's compare:
 
 
 ```r
-LoToTo.PlayingFreqEstimation.Using1stDrawResult
+Lototo.PlayingFreqEstimation.Using1stDrawResult
 ```
 
 ```
