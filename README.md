@@ -55,8 +55,9 @@ Some of the 10 combinations are more played than others, because people are not 
 If we want to reduce the risk of sharing the winnings, we should played one of the less played : [2-5], [3-4], [3-5], [4-5] 
 
 ### Estimation of the playing frequency of each combination
-**Problem : these playing frequencies are hidden by the Lototo organizer.**   So we should not be able to know which combination is the best one to play.
+**Problem : these playing frequencies are hidden by the Lototo organizer.**   
 
+So we should not be able to know which combination is the best one to play.
 This is why we're gonna try to estimate these playing frequencies by studying the public results of the past draws.
 
 
