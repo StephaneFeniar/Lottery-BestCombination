@@ -61,7 +61,7 @@ If we want to reduce the risk of sharing the winnings, we should played one of t
 So we should not be able to know which combination is the best one to play.
 This is why we're gonna try to estimate these playing frequencies by studying the **public results of the past draws**:
 
-| DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency with 2 matches|
+| DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 |      2|          4|          5|                       0.50|                       0.45|                              0.05|
@@ -72,7 +72,7 @@ This is why we're gonna try to estimate these playing frequencies by studying th
 
 For instance let's study the **1st draw**:
 
-| DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency with 2 matches|
+| DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 
