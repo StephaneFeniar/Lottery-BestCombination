@@ -52,7 +52,7 @@ Some of the 10 combinations are more played than others, because people are not 
 * Combination [1-2] is the most played *(20% of the players played this combination)*
 * Combinations [2-5] [3-4] [3-5] and [4-5] are the less played *(5% of the players played each of these combination)*
 
-If we want to reduce the risk of sharing the winnings, we should played one of the less played combinations : [2-5], [3-4], [3-5], [4-5] 
+If we want to reduce the risk of sharing the winnings, we should played one of the less played : [2-5], [3-4], [3-5], [4-5] 
 
 ### Estimation of the playing frequency of each combination
 **Problem : these playing frequencies are hidden by the Lototo organizer.**   So we should not be able to know which combination is the best one to play.
