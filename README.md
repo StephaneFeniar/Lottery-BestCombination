@@ -77,7 +77,7 @@ For instance let's study the **1st draw**:
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 
 * 15% of the tickets played  had 2 matches and [1-4] is the only combination with 2 matches.
-   </br>So [1-4] has been played by 15% of the tickets.
+   <br/>So [1-4] has been played by 15% of the tickets.
 
 * 60% of the tickets played had 1 match and 6 combinations had 1 match : [1-2]  [1-3]  [1-5]  [2-4]  [3-4]  [4-5]. 
   We don't have apriori on the playing frequency of these 6 combinations, that's why we assume each of them have been played by 10% of the tickets.
