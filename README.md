@@ -1,7 +1,7 @@
 Optimize your lottery winnings by picking the right numbers
 ========================================================
 
-![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
+
 ***
 
 # Overview
@@ -235,6 +235,7 @@ We can see our new estimator using all the past lottery results is even more acc
 Now you're familliar and convinced by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
 
 ## Application to a real lottery: EuroMillions
+![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
 
 ### Scope of the analysis
 Unlike the LoToTo, the Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
