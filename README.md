@@ -92,42 +92,23 @@ For instance let's study the **1st draw**:
 
 The analysis of the 1st draw result allowed us to have a estimation of the playing frequency of each combination.  
 
-Let's compare:
+**Let's compare:**
 * The real playing frequency *(which is not supposed to be known)*
 * Our estimation done by studying the public results of the first draw
 * A naive estimation which attibutes an equal frequency of 10% for each combination
 
-
-
-
-```r
-Lototo.PlayingFreqEstimation.Using1stDrawResult
-```
-
-```
-      1stNumber 2nd Number Real Playing Frequency
- [1,]         1          2                     20
- [2,]         1          3                     15
- [3,]         1          4                     15
- [4,]         1          5                      5
- [5,]         2          3                     15
- [6,]         2          4                     10
- [7,]         2          5                      5
- [8,]         3          4                      5
- [9,]         3          5                      5
-[10,]         4          5                      5
-      Est. using 1st Draw Result Naive Estimation
- [1,]                      10.00               10
- [2,]                      10.00               10
- [3,]                      15.00               10
- [4,]                      10.00               10
- [5,]                       8.33               10
- [6,]                      10.00               10
- [7,]                       8.33               10
- [8,]                      10.00               10
- [9,]                      10.00               10
-[10,]                       8.33               10
-```
+| 1stNumber| 2nd Number| Real Playing Frequency| Est. using 1st Draw Result| Naive Estimation|
+|---------:|----------:|----------------------:|--------------------------:|----------------:|
+|         1|          2|                     20|                      10.00|               10|
+|         1|          3|                     15|                      10.00|               10|
+|         1|          4|                     15|                      15.00|               10|
+|         1|          5|                      5|                      10.00|               10|
+|         2|          3|                     15|                       8.33|               10|
+|         2|          4|                     10|                      10.00|               10|
+|         2|          5|                      5|                       8.33|               10|
+|         3|          4|                      5|                      10.00|               10|
+|         3|          5|                      5|                      10.00|               10|
+|         4|          5|                      5|                       8.33|               10|
 
 We can see our estimator is more accurate than the naive one : 
 * A better or similar accuracy for 9 combinations out of 10
