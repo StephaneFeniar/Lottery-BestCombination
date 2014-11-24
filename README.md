@@ -1,9 +1,6 @@
 Optimize your lottery winnings by picking the right numbers
 ========================================================
 
-
-***
-
 # Overview
 
 ## Goal 
