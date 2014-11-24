@@ -1,13 +1,11 @@
 How to choose your lottery numbers ? 
 ========================================================
 
-# Overview
-
 ## Goal 
 
 The goal of this analysis is to optimize winnings of a lottery by playing the less played combination and reducing the probability to share the winnings.
 
-![I don't always win at the lottery, but when I do ...](http://i.imgur.com/HNBglDx.png)
+![I don't always win at the lottery, but when I do ...](http://i.imgur.com/6xDbGeC.png)
 
 
 ## How ?
@@ -26,9 +24,8 @@ This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http:
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
 A comparaison of these approaches is availabe at the end.
 
-# Approach
 
-## Illustrative example: the LoToTo
+## Illustrative example
 
 Let's imagine a fake lottery. the **LoToTo**:
 
