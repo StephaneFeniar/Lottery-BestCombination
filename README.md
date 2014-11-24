@@ -155,7 +155,7 @@ We can see our new estimator using all the past lottery results is even more acc
 * An Mean Absolute Error of 2.9 vs 4.3
 * The estimator succeed to  recommanded 2 good combinations: [3-5] [4-5] which indeed have a low playing frequency.
 
-Now you're familliar and convinced by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
+Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
 
 ## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
@@ -166,17 +166,6 @@ Unlike the LoToTo, the Euromillions consist of picking 5 numbers among 50 + 2 st
 In order to keep this analysis comparable to the Using ML analysis, we will **focus on the 5 numbers only**.
 
 Based on this 5 numbers among 50,  we will have to estimate the playing frequency of 2 118 760 combinations 
-
-
-
-```
-## 
-## Attaching package: 'combinat'
-## 
-## L'objet suivant est masqué from 'package:utils':
-## 
-##     combn
-```
 
 
 ```r
