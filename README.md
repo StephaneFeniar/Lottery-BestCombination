@@ -87,7 +87,7 @@ For instance let's study the **1st draw**:
 * 60% of the tickets played had 1 match and 6 combinations had 1 match : [1-2]  [1-3]  [1-5]  [2-4]  [3-4]  [4-5]. 
 <br/>So we assume each of them have been played by 10% of the tickets.
   
-* 25% of the tickets played of this 1st draw had no match and 3 combinations had 0 match : [2-3] [2-5] [3-5].  
+* 25% of the tickets played of this 1st draw had no match and 3 combinations had 0 match : [2-3] [2-5] [3-5].
 <br/>So we assume each of them have been played by 8.33% of the tickets.
 
 The analysis of the 1st draw result allowed us to have a estimation of the playing frequency of each combination.  
