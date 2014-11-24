@@ -55,13 +55,11 @@ Some of the 10 combinations are more played than others, because people are not 
 If we want to reduce the risk of sharing the winnings, we should played one of the less played : [2-5], [3-4], [3-5], [4-5] 
 
 ### Estimation of the playing frequency of each combination
-**Problem : these playing frequencies are hidden by the Lototo organizer.**   
+
+**Problem** : these playing frequencies are hidden by the Lototo organizer.
 
 So we should not be able to know which combination is the best one to play.
-This is why we're gonna try to estimate these playing frequencies by studying the public results of the past draws.
-
-**Public Results of the past draws**
-
+This is why we're gonna try to estimate these playing frequencies by studying the **public results of the past draws**:
 | DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency with 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
@@ -71,31 +69,19 @@ This is why we're gonna try to estimate these playing frequencies by studying th
 
 #### Estimation by studying one draw result
 
-For instance let's study the 1st draw:
+For instance let's **study the 1st draw**:
+| DrawId| 1st Number| 2nd Number| Tickets' frequency 0 match| Tickets' frequency 1 match| Tickets' frequency with 2 matches|
+|------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
+|      1|          1|          4|                       0.25|                       0.60|                              0.15|
 
-```r
-LoToTo.PastDrawsResults[1,]
-```
+* 15% of the tickets played  had 2 matches and [1-4] is the only combination with 2 matches.
+   So [1-4] has been played by 15% of the tickets.
 
-```
-                             DrawId                          1st Number 
-                                  1                                   1 
-                         2nd Number   Proportion of Player with 0 match 
-                                  4                                  25 
-  Proportion of Player with 1 match Proportion of Player with 2 matches 
-                                 60                                  15 
-```
-
-
-
-* 15% of the players of this 1st draw had 2 matches and [1-4] is the only combination with 2 matches.
-   So [1-4] has been played by 15% of the players.
-
-* 60% of the players of this 1st draw had 1 match and 6 combinations had 1 match : [1-2]  [1-3]  [1-5]  [2-4]  [3-4]  [4-5]. 
-  As we said we don't known the playing frequency of this 6 combinations, that's why we assume each of them have been played by 10% of the players.
+* 60% of the tickets played had 1 match and 6 combinations had 1 match : [1-2]  [1-3]  [1-5]  [2-4]  [3-4]  [4-5]. 
+  As we said we don't known the playing frequency of these 6 combinations, that's why we assume each of them have been played by 10% of the tickets.
   
-* 25% of the players of this 1st draw had no match and it concerns 3 combinations : [2-3] [2-5] [3-5].  
-   As we said we don't known the playing frequency of this 3 combinations, that's why we assume each of them have been played by 8.33% of the players.
+* 25% of the tickets played of this 1st draw had no match and 3 combinations had 0 match : [2-3] [2-5] [3-5].  
+   As we said we don't known the playing frequency of these 3 combinations, that's why we assume each of them have been played by 8.33% of the tickets.
 
 The analysis of the 1st draw result allowed us to have a estimation of the playing frequency of each combination.  
 
