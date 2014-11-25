@@ -157,7 +157,7 @@ Now you're familliar by the approach let's apply it to a real lottery : [EuroMil
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
 
 ### Scope of the analysis
-Unlike the LoToTo, the Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
+Unlike the Lototo, the Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
 
 In order to keep this analysis comparable to the Using ML analysis, we will **focus on the 5 numbers only**.
 
@@ -464,7 +464,8 @@ Combinations[,order(PlayingFrequencyAggregated)[1:10]]
 ## Next Steps
 
 ![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
-This section in under cunstruction
+
+*This section in under cunstruction*
 
 *  Improve the way to aggregate the estimations. For instance, if for a  draw *d* a combination has 5 matches, we should only take into account the estimation associated to the this draw *d*.
 *  Test the results significancy.
