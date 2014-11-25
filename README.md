@@ -166,20 +166,19 @@ Based on this 5 numbers among 50,  we will have to estimate the playing frequenc
 ### Results Summary
 According to the estimation:
 
-* The most played combination is : 7-8-9-10-11 *Don't play it :o*
-* The less played combination is : 1-2-3-4-5 *Play this one instead :)*
+* The **most played** combination is : [7-8-9-10-11] *Don't play it :o*
+* The **less played** combination is : [1-2-3-4-5] *Play this one instead :)*
 
 **The code of this analysis is available in two languages :**
 
 *  Python : Script and Markdown
 *  R : Script and Mardown
 
-
 ## Next Steps
 
-![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
+*[This section in under cunstruction]*
 
-*This section in under cunstruction*
+![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
 
 *  Test the results significancy.
 
