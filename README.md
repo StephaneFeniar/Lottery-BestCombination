@@ -132,7 +132,7 @@ If we do the same with the results of the 3 past draws we obtain these 3 estimat
 
 Let's aggregate these 3 estimators into a single stronger estimator like a RandomForest aggregate several decision trees.
 
-There is a several way to aggregate these 3 estimators *(See Next-Steps)* but here we will simply aggregate them by a simple mean.
+There is a several way to aggregate these 3 estimators ([See Next-Steps](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md#next-steps))  but here we will simply aggregate them by a simple mean.
 
 | 1st Number| 2nd Number| Real Frequency| Aggregated Est.|
 |----------:|----------:|--------------:|---------------:|
