@@ -163,13 +163,10 @@ In order to keep this analysis comparable to the Using ML analysis, we will **fo
 
 Based on this 5 numbers among 50,  we will have to estimate the playing frequency of 2 118 760 combinations 
 
+The code of this analysis exists in two languages :
 
-```r
-Grid= c(1:50)
-Combinations = combn(Grid,5)
-# 10 first combinations (1 per column)
-Combinations = Combinations[,1:10]
-```
+*  Python : Script and Markdown
+*  R : Script and Mardown
 
 **We'll use the methodology introduced in the LoToTo example**, *i.e*:
 
