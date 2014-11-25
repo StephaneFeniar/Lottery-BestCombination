@@ -95,7 +95,7 @@ The analysis of the 1st draw result allowed us to have a estimation of the playi
 * Our estimation done by studying the public results of the first draw
 * A naive estimation which attibutes an equal frequency of 10% for each combination
 
-| 1stNumber| 2nd Number| Real Playing Frequency| Est. using 1st Draw Result| Naive Estimation|
+| 1st Number| 2nd Number| Real Playing Frequency| Est. using 1st Draw Result| Naive Estimation|
 |---------:|----------:|----------------------:|--------------------------:|----------------:|
 |         1|          2|                     20|                      10.00|               10|
 |         1|          3|                     15|                      10.00|               10|
