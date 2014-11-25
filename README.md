@@ -149,7 +149,7 @@ We can see our new estimator using all the past draws results is even more accur
 
 * A better accuracy for 8 combinations out of 10 
 * An Mean Absolute Error of 2.9 vs 4.3
-* The estimator succeed to recommanded 2 good combinations: [3-5] [4-5] which indeed have a low playing frequency.
+* The estimator recommends 2 good combinations: [3-5] [4-5] which have a low playing frequency.
 
 Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
 
