@@ -10,12 +10,12 @@ The goal of this analysis is to optimize winnings of a lottery by playing the le
 
 ## How ?
 
-The idea is to:
+The idea is to analyze the past draws results: winning numbers and the proportion of winners 
 
-1. Analyze the pasts  results of the lottery *(number of winners for each draw)*
-2. Deduce the playing frequency of each combination. 
-<br/>  *Basically, if there is more winner than usual when the draw is 1-2-3-4-5, we can deduce this combination has a high playing frequency.*
-3. Play the combination win the lower playing frequency in order to reduce the probability of sharing the winnings
+Indeed each result gives us a tiny clues of how players played.
+
+Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is more played and we should not play it.
+
 
 
 ## Context
