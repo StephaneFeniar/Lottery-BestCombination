@@ -1,3 +1,31 @@
+*We'll use the methodology introduced in the LoToTo example**, *i.e*:
+
+1.  Analyse each draw result in order to estimate the playing frequency of all combinations
+2.  For each combination, we'll aggregate the 100 estimated playing frequency by into a single more accurate estimation.
+
+### Data Preparation
+
+#### Draws results Data
+
+After each draw, the EuroMillions organizers communicate publicly the results. A website recover them since 2004 (745  draws) and sell them for 2 euros [here](http://www.loterieplus.com/euromillions/services/telechargement-resultat.php) 
+
+I make available  the results of the last 100 draws here, with only the variable useful for this analysis *i.e* for each of the 100 draws:
+*  N1, N2, N3 , N4, N5 : 5 numbers of the draw *(in an ascending order)*
+*  Number of players on each rank:
+  + Rank1:   5 matches & 2  good stars
+  + Rank2:   5 matches & 1  good star
+  + Rank3:   5 matches & 0  good star
+  + Rank4:   4 matches & 2  good stars
+  + Rank5:   4 matches & 1  good star
+  + Rank6:   4 matches & 0  good star
+  + Rank7:   3 matches & 2  good stars
+  + Rank9:   3 matches & 1  good star
+  + Rank10:  3 matches & 0  good star
+  + Rank8:   2   matches & 2  good stars
+  + Rank12:  2   matches & 1  good star
+  + Rank11:  1  match & 2  good stars
+  + Nb Tickets: number of tickets played (no matter the number of matches and/or good stars)
+
 
 ```r
 setwd('C:/Users/sfeniar/Desktop/em')
