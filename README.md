@@ -111,7 +111,7 @@ We can see our estimator is more accurate than the naive one :
 * An Mean Absolute Error of 4,3 vs 5.0
 
 
-### Estimation by studying all draws result
+#### Estimation by studying all draws result
 
 If we do the same with the results of the 3 past draws we obtain these 3 estimators:
 
