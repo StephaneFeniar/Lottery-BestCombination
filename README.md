@@ -21,7 +21,7 @@ Basically, if there was more winners than usual when the draw was 1-12-14-22-32,
 This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour)
 
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
-A comparaison of these approaches is availabe at the end.
+([See Next-Steps](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md#next-steps))  
 
 
 ## Illustrative example
