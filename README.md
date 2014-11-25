@@ -231,15 +231,28 @@ Since we decided to focus on numbers and not on the stars we need to aggregate a
 Hopefully we can estiamte these numbers by using the [Winning Probability](http://en.wikipedia.org/wiki/EuroMillions#Prize_structure)
 
 * Number of players with:
-  + 2   matches & 0 good star : can be estimated as twice the number of players in the Rank12 *(2 matches & 1  good star)*
-  + 1   match & 1 good star : can be estimated as 18 times the number of players in the Rank11 *(1  matches & 2 good star)*
-  + 1   match & 0 good star : : can be estimated as 36 times the number of players in the Rank11 *(1  matches & 2 good star)*
+  + 2   matches & 0 good star : can be estimated as twice the number of players in the Rank12 
+  + 1   match & 1 good star : can be estimated as 18 times the number of players in the Rank11 *
+  + 1   match & 0 good star : : can be estimated as 36 times the number of players in the Rank11 
   + 0   match (no matter the number of good star) : can be estimated as the total number of players - the number of player with at least 1 match.
   
-*A better estimation mechanism could be used, see Next-Steps*
+*A better estimation mechanism could be used,  *([See Next-Steps](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md#next-steps))**
 
 
 ```r
+#Compute for each draw, the number of tickets for each number of matches
+Draws$NB_TICKETS_5_MATCHES = Draws$RANK1 + Draws$RANK2 + Draws$RANK3
+Draws$NB_TICKETS_4_MATCHES = Draws$RANK4 + Draws$RANK5 + Draws$RANK6
+Draws$NB_TICKETS_3_MATCHES = Draws$RANK7 + Draws$RANK9 + Draws$RANK10
+Draws$NB_TICKETS_2_MATCHES = Draws$RANK8 + Draws$RANK12 + 2 * Draws$RANK12
+Draws$NB_TICKETS_1_MATCH = Draws$RANK11 + 18 * Draws$RANK11 + 36 * Draws$RANK11
+Draws$NB_TICKETS_0_MATCH = Draws$NB_TICKETS - Draws$NB_TICKETS_5_MATCHES - Draws$NB_TICKETS_4_MATCHES - Draws$NB_TICKETS_3_MATCHES -
+                          Draws$NB_TICKETS_2_MATCHES - Draws$NB_TICKETS_1_MATCH
+Draws = Draws[1:2,-(7:18)] 
+head(Draws)
+```
+
+```
 #Compute for each draw, the number of tickets for each number of matches
 Draws$NB_TICKETS_5_MATCHES = Draws$RANK1 + Draws$RANK2 + Draws$RANK3
 Draws$NB_TICKETS_4_MATCHES = Draws$RANK4 + Draws$RANK5 + Draws$RANK6
