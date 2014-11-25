@@ -26,8 +26,8 @@ The goal is the same *(reduce the probability to share the winnings)* but the ap
 
 Let's imagine a fake lottery, the **Lototo**:
 
-* 2 numbers to pick among 5 numbers *(from 1 to 5)* .
-* 10 combinations possibles : [1-2] [1-3] [1-4] [1-5] [2-3] [2-4] [2-5] [3-4] [3-5] [4-5]
+* 2 numbers to pick among 5 numbers *(from 1 to 5)*.
+* 10 possibles combinations : [1-2] [1-3] [1-4] [1-5] [2-3] [2-4] [2-5] [3-4] [3-5] [4-5]
 
 The Lototo organizer know for each combination the frequency of tickets played on it *(played frequency)*:
 
