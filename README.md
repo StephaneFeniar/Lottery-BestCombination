@@ -163,7 +163,13 @@ In order to keep this analysis comparable to the Using ML analysis, we will **fo
 
 Based on this 5 numbers among 50,  we will have to estimate the playing frequency of 2 118 760 combinations 
 
-**The code of this analysis exists in two languages :**
+### Results Summary
+According to the estimation:
+
+* The most played combination is : 7-8-9-10-11 *Don't play it :o*
+* The less played combination is : 1-2-3-4-5 *Play this one instead :)*
+
+**The code of this analysis is available in two languages :**
 
 *  Python : Script and Markdown
 *  R : Script and Mardown
