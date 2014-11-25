@@ -467,9 +467,11 @@ Combinations[,order(PlayingFrequencyAggregated)[1:10]]
 
 *This section in under cunstruction*
 
+*  Test the results significancy.
+
 *  Improve the way to aggregate the estimations. 
 <br/>Exemple: if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
-*  Test the results significancy.
+
 *  Perform the analysis in a recursive way:
   + Do the analysis like we did and recover an estimated  playing frequency for each combination.
   + Redo the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
