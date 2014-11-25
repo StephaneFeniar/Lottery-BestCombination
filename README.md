@@ -64,7 +64,7 @@ For each draw we have:
 *  The 2 winning numbers : 1st Number & 2nd Number *(in an ascending order)*
 *  The proportion of tickets with 0, 1, and 2 matches
 
-| DrawId| 1st Number| 2nd Number|  0 match|  1 match|  2 matches|
+| Draw Id| 1st Number| 2nd Number|  0 match|  1 match|  2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 |      2|          4|          5|                       0.50|                       0.45|                              0.05|
@@ -75,7 +75,7 @@ For each draw we have:
 
 For instance let's study the **1st draw**:
 
-| DrawId| 1st Number| 2nd Number|  0 match| 1 match| 2 matches|
+| Draw Id| 1st Number| 2nd Number|  0 match| 1 match| 2 matches|
 |------:|----------:|----------:|--------------------------:|--------------------------:|---------------------------------:|
 |      1|          1|          4|                       0.25|                       0.60|                              0.15|
 
@@ -132,7 +132,7 @@ If we do the same with the results of the 3 past draws we obtain these 3 estimat
 
 Let's aggregate these 3 estimators into a single stronger estimator like a RandomForest aggregate several decision trees.
 
-There is a several way to aggregate these 3 estimators (See Next-Steps) but here we sill simply aggregate them by doing a simple mean of their individual estimation: Est. aggregated = (Est. using 1st Draw Result + Est. using 2nd Draw Result +  Est. using 3rd Draw Result) /3
+There is a several way to aggregate these 3 estimators *(See Next-Steps)* but here we will simply aggregate them by a simple mean.
 
 | 1st Number| 2nd Number| Real Frequency| Aggregated Est.|
 |----------:|----------:|--------------:|---------------:|
@@ -147,11 +147,11 @@ There is a several way to aggregate these 3 estimators (See Next-Steps) but here
 |          3|          5|           0.05|            0.07|
 |          4|          5|           0.05|            0.07|
 
-We can see our new estimator using all the past lottery results is even more accurate than the estimator using only the last lottery result: 
+We can see our new estimator using all the past draws results is even more accurate than the estimator using only the first draw result: 
 
 * A better accuracy for 8 combinations out of 10 
 * An Mean Absolute Error of 2.9 vs 4.3
-* The estimator succeed to  recommanded 2 good combinations: [3-5] [4-5] which indeed have a low playing frequency.
+* The estimator succeed to recommanded 2 good combinations: [3-5] [4-5] which indeed have a low playing frequency.
 
 Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
 
