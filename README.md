@@ -468,7 +468,7 @@ Combinations[,order(PlayingFrequencyAggregated)[1:10]]
 *This section in under cunstruction*
 
 *  Improve the way to aggregate the estimations. 
-<br/>For instance, if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
+<br/>Exemple: if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
 *  Test the results significancy.
 *  Perform the analysis in a recursive way:
   + Do the analysis like we did and recover an estimated  playing frequency for each combination.
