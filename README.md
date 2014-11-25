@@ -4,9 +4,9 @@ How to choose your lottery numbers ?
 
 ## Goal 
 
-The goal of this analysis is to optimize winnings of a lottery by playing the less played combination and reducing the probability to share the winnings.
+If you play at the lottery the same numbers as many others players, you will have to split the prize in case of winning.
 
-
+The goal of this analysis is to reduce this risk by playing the less played combination.
 
 ## How ?
 
@@ -15,8 +15,6 @@ The idea is to analyze the past draws results: winning numbers and the proportio
 Indeed each result gives us a tiny clues of how players played.
 
 Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is more played and we should not play it.
-
-
 
 ## Context
 
