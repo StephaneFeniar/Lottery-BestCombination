@@ -186,7 +186,7 @@ According to the estimation:
 <br/>Exemple: if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
 
 *  Perform the analysis in a recursive way:
-  + Do the analysis like we did and recover an estimated  playing frequency for each combination.
-  + Redo the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
+  1. Do the analysis like we did and recover an estimated  playing frequency for each combination.
+  2. Re-do the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
 
 
