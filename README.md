@@ -14,7 +14,7 @@ The idea is to analyze the results of the past draws : numbers drawn and proport
 
 Indeed each result gives us a tiny clue of how players played.
 
-Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is more played and we should not play it.
+Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is often played and we should not play it.
 
 ## Context
 
