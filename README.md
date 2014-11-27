@@ -21,7 +21,6 @@ Basically, if there was more winners than usual when the draw was 1-12-14-22-32,
 This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour)
 
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
-
 ========================================================
 ## Illustrative example
 
@@ -153,7 +152,6 @@ We can see our new estimator using all the past draws results is even more accur
 * The estimator recommends 2 good combinations: [3-5] [4-5] which have a low playing frequency.
 
 Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
-
 ========================================================
 ## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
