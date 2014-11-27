@@ -22,6 +22,7 @@ This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http:
 
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
 
+========================================================
 ## Illustrative example
 
 Let's imagine a fake lottery, the **Lototo**:
@@ -153,6 +154,7 @@ We can see our new estimator using all the past draws results is even more accur
 
 Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](http://en.wikipedia.org/wiki/EuroMillions)
 
+========================================================
 ## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
 
