@@ -24,7 +24,7 @@ The goal is the same *(reduce the probability to share the winnings)* but the ap
 
 # Illustrative example
 
-An introductive example explaining the methodology is available on [GitHub](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md)
+An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md)
 
 This lecture is higly recommended if you're not familliar with [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb).
 
