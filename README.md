@@ -12,9 +12,7 @@ The goal of this analysis is to reduce this risk by playing the less played comb
 
 The idea is to analyze the results of the past draws : numbers drawn and proportion of winners 
 
-Indeed each result gives us a tiny clue of how players played.
-
-Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is often played and we should not play it.
+These results give us a tiny clue of how players played. Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is often played and we should not play it.
 
 #### Context
 
@@ -24,7 +22,7 @@ The goal is the same *(reduce the probability to share the winnings)* but the ap
 
 ## Illustrative example
 
-An introductive example is available here. It explains the methodology used by using a fake lottery.
+An introductive example is available here. It explains the methodology by using a fake lottery.
 
 ## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
