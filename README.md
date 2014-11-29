@@ -30,7 +30,7 @@ An introductive example is available here. It explains the methodology by using 
 #### Scope of the analysis
 Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
 
-In order to keep this analysis comparable to the Using ML analysis, we'll **focus only on the 5 numbers**.
+In order to keep this analysis comparable to the [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb), we'll **focus only on the 5 numbers**.
 
 #### Results
 According to the estimation:
