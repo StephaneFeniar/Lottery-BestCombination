@@ -22,11 +22,9 @@ This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http:
 
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
 
-
-
 ## Illustrative example
 
-An introductive example is available here.
+An introductive example is available here. It explains the methodology used by using a fake lottery.
 
 ## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
@@ -34,11 +32,11 @@ An introductive example is available here.
 #### Scope of the analysis
 Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
 
-In order to keep this analysis comparable to the Using ML analysis, we will **focus on the 5 numbers only**.
+In order to keep this analysis comparable to the Using ML analysis, we will **focus on the 5 numbers**.
 
 Based on this 5 numbers among 50,  we will have to estimate the playing frequency of 2 118 760 combinations 
 
-#### Results Summary
+#### Results
 According to the estimation:
 
 * The **most played** combination is : [7-8-9-10-11] *Don't play it :o*
