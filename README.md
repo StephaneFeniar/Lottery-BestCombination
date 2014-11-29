@@ -12,7 +12,7 @@ The goal of this analysis is to reduce this risk by playing the less played comb
 
 The idea is to analyze the results of the past draws : numbers drawn and proportion of winners 
 
-These results give us a tiny clue of how players played. Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is often played and we should not play it.
+Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is often played and we should not play it.
 
 #### Context
 
