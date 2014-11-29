@@ -32,8 +32,6 @@ Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
 
 In order to keep this analysis comparable to the Using ML analysis, we will **focus on the 5 numbers**.
 
-Based on this 5 numbers among 50,  we will have to estimate the playing frequency of 2 118 760 combinations 
-
 #### Results
 According to the estimation:
 
