@@ -2,33 +2,33 @@ How to choose your lottery numbers ?
 ========================================================
 ![Imgur](http://i.imgur.com/TaNSZee.png)
 
-# Overview
+## Overview
 
 If you play at the lottery the same combination as many others players, you will have to split the prize in case of winning.
 
-### Goal
+#### Goal
 
 The goal of this analysis is to reduce this risk by playing the less played combination.
 
-### How ?
+#### How ?
 
 The idea is to analyze the results of the past draws : numbers drawn and proportion of winners 
 
 Basically, if there was more winners than usual when the draw was [1-12-14-22-32], we can deduce this combination and similar ones are often played.
 
-### Context
+#### Context
 
 This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour)
 
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
 
-# Illustrative example
+## Illustrative example
 
 An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md)
 
 This lecture is highly recommended if you're not familliar with [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb).
 
-# Application to a real lottery: EuroMillions
+## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
 
 #### Scope of the analysis
