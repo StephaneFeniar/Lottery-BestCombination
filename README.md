@@ -8,7 +8,7 @@ If you play at the lottery the same numbers as many others players, you will hav
 
 The goal of this analysis is to reduce this risk by playing the less played combination.
 
-## How ?
+### How ?
 
 The idea is to analyze the results of the past draws : numbers drawn and proportion of winners 
 
@@ -16,13 +16,13 @@ Indeed each result gives us a tiny clue of how players played.
 
 Basically, if there was more winners than usual when the draw was 1-12-14-22-32, we can deduce this combination is often played and we should not play it.
 
-## Context
+### Context
 
 This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour)
 
 The goal is the same *(reduce the probability to share the winnings)* but the approach is different.
 
-========================================================
+
 
 ## Illustrative example
 
