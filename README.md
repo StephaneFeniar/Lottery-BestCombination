@@ -4,7 +4,7 @@ How to choose your lottery numbers ?
 
 # Overview
 
-If you play at the lottery the same numbers as many others players, you will have to split the prize in case of winning.
+If you play at the lottery the same combination as many others players, you will have to split the prize in case of winning.
 
 ### Goal
 
