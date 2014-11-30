@@ -32,7 +32,8 @@ This lecture is highly recommended if you're not familliar with analyses about l
 #### Scope of the analysis
 Euromillions consist of picking 5 numbers among 50 + 2 stars among 10 stars.
 
-In order to keep the analysis comparable to [Using ML To Pick Your Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb), we'll **focus on the 5 numbers**.
+For keeping the analysis comparable to [Using ML To Pick Your Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb), we'll **focus on the 5 numbers**.
+
 
 #### Results summary
 According to the estimation:
