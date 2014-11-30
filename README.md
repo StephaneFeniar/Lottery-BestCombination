@@ -22,7 +22,7 @@ This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http:
 The goal is the same *(reducing the probability to share the winnings)* but the approach is different.
 ## Methodology
 
-An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md).
+An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/Methodology.md).
 
 This lecture is highly recommended if you're not familliar with analyses about lottery numbers.
 
