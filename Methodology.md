@@ -36,7 +36,7 @@ If we want to reduce the risk of sharing the winnings, we should played: [2-5], 
 **Problem** : these playing frequencies are hidden by the Lototo organizer.
 
 So we should not be able to know which combination is the best one to play.
-This is why we're gonna try to estimate these playing frequencies by studying the **public results of the past draws:**
+This is why we're gonna try to estimate these playing frequencies by studying the **public results of the past draws**.
 
 ## Estimation of the playing frequency of each combination
 
