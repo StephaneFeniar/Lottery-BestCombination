@@ -30,7 +30,7 @@ Some of the 10 combinations are more played than others, because people are not 
 
 If we want to reduce the risk of sharing the winnings, we should played: [2-5], [3-4], [3-5] or [4-5] 
 
-#### Estimation of the playing frequency of each combination
+## Estimation of the playing frequency of each combination
 
 **Problem** : these playing frequencies are hidden by the Lototo organizer.
 
