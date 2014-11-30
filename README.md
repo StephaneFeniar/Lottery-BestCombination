@@ -51,10 +51,10 @@ The code of this analysis is available in two languages :
 
 ![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
 
-*  Improve the way to aggregate the estimations. 
+*  **Improve the way to aggregate the estimations.** 
 <br/>Exemple: if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
 
-*  Perform the analysis in a recursive way:
+*  **Perform the analysis in a recursive way:**
   1. Do the analysis like we did and recover an estimated  playing frequency for each combination.
   2. Re-do the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
 
