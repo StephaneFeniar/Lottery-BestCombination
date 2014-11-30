@@ -11,7 +11,7 @@ The goal of this analysis is to reduce this risk by playing the less played comb
 
 #### How ?
 
-The idea is to analyze the results of the past draws : numbers drawn and proportion of winners 
+The idea is to analyze the results of the past draws : numbers drawn and proportion of winners. 
 
 Basically, each result can ben seen as a tiny clue: if there is more winners than usual when the draw is [1-12-14-22-32], we can deduce this combination and similar ones are often played.
 
@@ -22,7 +22,7 @@ This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http:
 The goal is the same *(reducing the probability to share the winnings)* but the approach is different.
 ## Methodology
 
-An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md)
+An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md).
 
 This lecture is highly recommended if you're not familliar with analyses about lottery numbers.
 
@@ -50,8 +50,6 @@ The code of this analysis is available in two languages :
 *[This section in under construction]*
 
 ![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
-
-*  Test the results significancy.
 
 *  Improve the way to aggregate the estimations. 
 <br/>Exemple: if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
