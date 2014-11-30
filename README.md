@@ -49,7 +49,7 @@ The code of this analysis is available in two languages :
 
 *[This section in under construction]*
 
-![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
+![We need to go deeper](http://i.imgur.com/jjd9AIS.png)
 
 *  **Improve the way to aggregate the estimations.** 
 <br/>Exemple: if a combination has 5 matches with a draw, we should only keep the estimation associated to this draw.
