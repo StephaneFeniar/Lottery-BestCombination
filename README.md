@@ -40,10 +40,10 @@ According to the estimation:
 * The **most played** combination is : [7-8-9-10-11] *Don't play it :o*
 * The **less played** combination is : [1-2-3-4-5] *Play this one instead :)*
 
-**The code of this analysis is available in two languages :**
+The code of this analysis is available in two languages :
 
-*  Python : Script and Markdown
-*  R : Script and Mardown
+*  **Python** : Script and Markdown
+*  **R** : Script and Mardown
 
 ## Next Steps
 
