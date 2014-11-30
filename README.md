@@ -24,7 +24,7 @@ The goal is the same *(reducing the probability to share the winnings)* but the 
 
 An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md)
 
-This lecture is highly recommended if you're not familliar with similar analysis about lottery numbers.
+This lecture is highly recommended if you're not familliar with analysis about lottery numbers.
 
 ## Application to a real lottery: EuroMillions
 ![Let's pick the best numbers](http://i.imgur.com/bIOUoRB.png)
