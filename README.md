@@ -48,7 +48,7 @@ According to the estimation:
 
 ## Next Steps
 
-*[This section in under cunstruction]*
+*[This section in under construction]*
 
 ![We need to go deeper](https://xen-orchestra.com/blog/content/images/2014/Aug/1386271588578.jpg)
 
