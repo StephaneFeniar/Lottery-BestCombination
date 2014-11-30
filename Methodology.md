@@ -3,7 +3,7 @@ Methodology
 
 Here is an introductive example explaining the methodology of the analysis.
 
-This lecture is highly recommended if you're not familliar with [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb).
+This lecture is highly recommended if you're not familliar with analyses about lottery numbers.
 
 ## Illustrative example
 
