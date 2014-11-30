@@ -30,7 +30,7 @@ Some of the 10 combinations are more played than others, because people are not 
 
 If we want to reduce the risk of sharing the winnings, we should played: [2-5], [3-4], [3-5] or [4-5] 
 
-### Estimation of the playing frequency of each combination
+#### Estimation of the playing frequency of each combination
 
 **Problem** : these playing frequencies are hidden by the Lototo organizer.
 
@@ -131,4 +131,4 @@ We can see our new estimator using all the past draws results is even more accur
 * An Mean Absolute Error of 2.9 vs 4.3
 * The estimator recommends 2 good combinations: [3-5] [4-5] which have a low playing frequency.
 
-Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](https://github.com/StephaneFeniar/Lottery-BestCombination#application-to-a-real-lottery-euromillions)
+**Now you're familliar by the approach let's apply it to a real lottery : [EuroMillions](https://github.com/StephaneFeniar/Lottery-BestCombination#application-to-a-real-lottery-euromillions).**
