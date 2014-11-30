@@ -1,6 +1,6 @@
 How to choose your lottery numbers ? 
 ========================================================
-![Imgur](http://i.imgur.com/TaNSZee.png)
+![Imgur](http://i.imgur.com/pgk72hG.png)
 
 ## Overview
 
