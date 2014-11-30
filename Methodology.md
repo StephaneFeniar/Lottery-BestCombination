@@ -1,6 +1,9 @@
 Methodology 
 ========================================================
 
+Here is an introductive example explaining the methodology of the analysis.
+
+This lecture is highly recommended if you're not familliar with Using ML To Pick Your Lottery Numbers.
 
 ## Illustrative example
 
