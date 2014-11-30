@@ -13,13 +13,13 @@ The goal of this analysis is to reduce this risk by playing the less played comb
 
 The idea is to analyze the results of the past draws : numbers drawn and proportion of winners 
 
-Basically, if there was more winners than usual when the draw was [1-12-14-22-32], we can deduce this combination and similar ones are often played.
+Basically, each result can ben seen as a tiny clue: if there was more winners than usual when the draw was [1-12-14-22-32], we can deduce this combination and similar ones are often played.
 
 #### Context
 
 This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour)
 
-Instead of using the OneWinner.me data, we'll study the tiny clues gave by the public lottery results.
+The goal is the same *(reducing the probability to share the winnings)* but the approach is different.
 ## Methodology
 
 An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md)
