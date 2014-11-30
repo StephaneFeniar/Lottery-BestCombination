@@ -59,7 +59,9 @@ The code of this analysis is available in two languages :
   1. Do the analysis like we did and recover an estimated  playing frequency for each combination.
   2. Re-do the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
 
-*  **Improving the approach by  optmizing the global expected winnings.**
-<br/> Instead of just reduce the risk of sharing the big prize we could reduce the risk of sharing all prizes, *i.e* searching a combination which is rarely played and doesn't shared a lots of numbers with most played combinations.
+*  **Improving the approach by optimizing the global expected winnings.**
+<br/> Instead of just reduce the risk of sharing the big prize, we could reduce the risk of sharing all prizes, *i.e* searching a combination which is rarely played and doesn't shared a lots of numbers with most played combinations.
+
+
 
 
