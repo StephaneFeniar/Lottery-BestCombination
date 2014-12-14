@@ -50,7 +50,6 @@ Draws$FREQ_COMB_3 = Draws$FREQ_TICKETS_3_MATCHES / 9900
 Draws$FREQ_COMB_4 = Draws$FREQ_TICKETS_4_MATCHES / 225
 Draws$FREQ_COMB_5 = Draws$FREQ_TICKETS_5_MATCHES / 1
 
-
 DrawsCombFrequency  = as.matrix( Draws[,c('FREQ_COMB_0',
                                           'FREQ_COMB_1', 
                                           'FREQ_COMB_2', 
