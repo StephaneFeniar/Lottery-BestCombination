@@ -25,6 +25,7 @@ Draws$FREQ_TICKETS_1_MATCH = Draws$NB_TICKETS_1_MATCH / Draws$NB_TICKETS
 Draws$FREQ_TICKETS_0_MATCH = Draws$NB_TICKETS_0_MATCH / Draws$NB_TICKETS
 
 ### Compute the number of matches between each Draw and each Combination.
+
 DrawsNumbers = as.matrix( Draws[,c('N1', 'N2', 'N3', 'N4', 'N5')] )
 NbDraws = nrow(DrawsNumbers)
 NbCombinations = nrow(Combinations)
