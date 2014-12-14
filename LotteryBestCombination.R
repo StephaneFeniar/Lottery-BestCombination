@@ -1,7 +1,7 @@
 # Data import
 setwd('C:/Users/Stéphane/Documents/Euromillions')
 Draws = read.table("euromillions_results_300_draws.csv", header=TRUE,sep = ";")
-Draws = Draws[1:100,] /!\ If less than 8GB of memory, keep just 100 draws.
+# Draws = Draws[1:100,] /!\ If less than 8 GB of memory, keep just 100 draws.
 
 
 
