@@ -44,8 +44,8 @@ According to the estimation:
 
 The code of this analysis is available in two languages :
 
-*  **Python** : Script and Markdown
-*  **R** : Script and Mardown
+*  **Python** : [Script](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/LotteryBestCombination.py) and [Ipython Notebook](http://nbviewer.ipython.org/github/StephaneFeniar/Lottery-BestCombination/blob/master/LotteryBestCombination.ipynb)
+*  **R** : [Script](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/LotteryBestCombination.R) and [Markdown](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/R%20Markdown.MD)
 
 ## Next Steps
 
