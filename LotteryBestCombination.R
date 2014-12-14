@@ -1,10 +1,9 @@
-# Data import
+### Data import
 setwd('C:/Users/Stéphane/Documents/Euromillions')
 Draws = read.table("euromillions_results_300_draws.csv", header=TRUE,sep = ";")
 # Draws = Draws[1:100,] /!\ If less than 8 GB of memory, keep just 100 draws.
 
-
-
+### Data Preparation
 Grid= c(1:50)
 Combinations = t(combn(Grid,5)) # 2 118 760 combinations based on the 5 numbers from 1 to 50.
 
@@ -25,7 +24,7 @@ Draws$FREQ_TICKETS_2_MATCHES = Draws$NB_TICKETS_2_MATCHES / Draws$NB_TICKETS
 Draws$FREQ_TICKETS_1_MATCH = Draws$NB_TICKETS_1_MATCH / Draws$NB_TICKETS
 Draws$FREQ_TICKETS_0_MATCH = Draws$NB_TICKETS_0_MATCH / Draws$NB_TICKETS
 
-# Compute the number of matches between each Draw and each Combination.
+### Compute the number of matches between each Draw and each Combination.
 DrawsNumbers = as.matrix( Draws[,c('N1', 'N2', 'N3', 'N4', 'N5')] )
 NbDraws = nrow(DrawsNumbers)
 NbCombinations = nrow(Combinations)
@@ -39,6 +38,8 @@ for(i in 1:NbCombinations) {CombinationsSparse[i,Combinations [i,]] = 1}
 
 Matches = CombinationsSparse %*% t(DrawsNumbersSparse)
 rm(CombinationsSparse)
+
+### Estimations of the playing frequency of each combination
 
 #Divide the frequency of tickets with m matches by the number combinations having m matches
 Draws$FREQ_COMB_0 = Draws$FREQ_TICKETS_0_MATCH / 1221759 
@@ -64,12 +65,12 @@ ComputePlayingFrequency = function(DrawsCombFrequency, Matches){
 
 PlayingFrequency = ComputePlayingFrequency (DrawsCombFrequency, Matches)
 
-# Aggregation of the estimations
+### Aggregation of the estimations
+
 PlayingFrequencyAggregated = rowMeans(PlayingFrequency)
 
 # Most frequently played combination (Don't play it :o )
 Combinations[order(-PlayingFrequencyAggregated)[1],]
-
 
 # Less frequently played combination (Play this one instead :) )
 Combinations[order(PlayingFrequencyAggregated)[1],]
