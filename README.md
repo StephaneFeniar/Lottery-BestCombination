@@ -17,9 +17,10 @@ Basically, each result can ben seen as a tiny clue: if there is more winners tha
 
 #### Context
 
-This analysis has been inspired by [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour)
+This analysis has been inspired by [OneWinner.me](http://www.onewinner.me/fr/faq-fr.html) and [Using ML To Pick Your Lottery Numbers](http://nbviewer.ipython.org/url/www.onewinner.me/en/devoxxML.ipynb) of [C.Bourguignat](https://twitter.com/chris_bour).
 
-The goal is the same *(reducing the probability to share the winnings)* but the approach is different.
+The goal is the same but the approach is different. Instead of using crowdsourcing, we'll analyse past draws results.
+
 ## Methodology
 
 An introductive example explaining the methodology is available [here](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/Methodology.md).
