@@ -39,8 +39,8 @@ We'll **focus on the numbers** for keeping the analysis comparable to [Using ML 
 #### Results summary
 According to the estimation:
 
-* The **most played** combination is : [7-8-9-10-11] *Don't play it :o*
-* The **less played** combination is : [1-2-3-4-5] *Play this one instead :)*
+* The **most played** combination is : [ 7 13 19 22 24] *Don't play it :o*
+* The **less played** combination is : [14 20 41 45 49]  *Play this one instead :)*
 
 The code of this analysis is available in two languages :
 
