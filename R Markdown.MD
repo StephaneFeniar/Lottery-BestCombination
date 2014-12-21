@@ -204,7 +204,7 @@ We could go further by :
 
 
 *  **Improving the approach by optimizing the global expected winnings.**
-<br/> Rather than just reduce the risk of sharing the big prize, we could reduce the risk of sharing all prizes, *i.e* searching a combination which is rarely played and doesn't shared a lots of numbers with most played combinations.
+<br/> Rather than just reduce the risk of sharing the big prize, we could reduce the risk of sharing all prizes by searching a combination which is rarely played and doesn't shared a lots of numbers with most played combinations.
 
 
 
