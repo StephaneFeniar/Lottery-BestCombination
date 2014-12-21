@@ -24,7 +24,7 @@ After each draw, the EuroMillions organizers communicate publicly the results:
   + Rank8:   2   matches & 2  good stars
   + Rank12:  2   matches & 1  good star
   + Rank11:  1  match & 2  good stars
-* Nb Tickets: total number of tickets played *(no matter the number of matches and/or good stars)*
+* Number of Tickets: total number of tickets played *(no matter the number of matches and/or good stars)*
 
 **We will study the results of the last 300 past draws** *(which happened after the changes of May 2011)*
 ```r
@@ -38,7 +38,7 @@ Draws = read.table("euromillions_results_300_draws.csv", header=TRUE,sep = ";")
 
 Since we decided to focus on the numbers and not on the stars, we need to aggregate all the ranks associated to the same level of correct numbers *(matches)*.
 
-**Problem:** the numbers of tickets per winning rank are not enough to compute the number of players with 2,1 or 0 match. 
+**Problem:** the numbers of tickets per winning rank are not sufficient to compute the number of players with 2,1 or 0 match. 
 
 For instance we can't compute the total number of tickets with 2 matches without the number of tickets with 2 matches & 0 star *(unknown because no prize associated to this result)*.
 
@@ -99,7 +99,7 @@ rm(CombinationsSparse)
 
 ### 4. Estimations of the playing frequency of each combination
 
-Now we know for each draw:
+Now, we know for each draw:
 
 * the frequency of tickets with 0, 1, 2, 3, 4, 5 matches
 * the number of matches with all the 2 118 760 possible combinations
@@ -118,7 +118,7 @@ Then we know for each draw there is:
 * 749 975 combinations having 1 match 
 * 1 221 759 combinations having 0 match
 
-So for each draw we will estimated the:
+So for each draw we will estimate the:
 
 *  Playing frequency of each combination with 0 match = Frequency of tickets with 0 match / 1221759 
 *  Playing frequency of each combination with 1 match = Frequency of tickets with 1 match / 749975
@@ -159,7 +159,7 @@ PlayingFrequency = ComputePlayingFrequency (DrawsCombFrequency, Matches)
 Each of the 300 draws gives an estimated playing frequency for each combination.
 Let's aggregate these 300 estimators into a stronger one like a RandomForest aggregates trees.
 
-There are a several way to aggregate these 300 estimators *([See Next-Steps](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md#next-steps))*  but here we will do it them by a simple mean.
+There are a several way to aggregate these 300 estimators *([See Next-Steps](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/README.md#next-steps))*  but here we will do it by a simple mean.
 
 ```
 # Aggregation of the estimations
@@ -169,7 +169,7 @@ PlayingFrequencyAggregated = rowMeans(PlayingFrequency)
 ### 6. Results analysis
 
 
-Let's take a look at the more played and less played combinations.
+Let's take a look at the most played and less played combinations.
 ```
 # Most frequently played combination (Don't play it :o )
 Combinations[order(-PlayingFrequencyAggregated)[1],]
@@ -200,7 +200,7 @@ We could go further by :
 
 *  **Performing the analysis in a recursive way:**
   1. Do the analysis like we did and recover an estimated  playing frequency for each combination.
-  2. Re-do the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches to all the combinations having m matches" 
+  2. Re-do the analysis by using this distribution instead of an equal distribution for improving the way to "split the frequency of tickets with m matches through all the combinations having m matches" 
 
 
 *  **Improving the approach by optimizing the global expected winnings.**
