@@ -42,7 +42,7 @@ According to the estimation:
 * The **most played** combination is : [ 7 13 19 22 24] *Don't play it :o*
 * The **less played** combination is : [14 20 41 45 49]  *Play this one instead :)*
 
-The code of this analysis is available in two languages :
+**The code of this analysis is available in two languages :**
 
 *  **Python** : [Script](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/LotteryBestCombination.py) and [IPython Notebook](http://nbviewer.ipython.org/github/StephaneFeniar/Lottery-BestCombination/blob/master/LotteryBestCombination.ipynb)
 *  **R** : [Script](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/LotteryBestCombination.R) and [Markdown](https://github.com/StephaneFeniar/Lottery-BestCombination/blob/master/R%20Markdown.MD)
