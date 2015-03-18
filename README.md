@@ -2,7 +2,7 @@ How to choose your lottery numbers ?
 ========================================================
 ![Imgur](http://i.imgur.com/pgk72hG.png)
 
-## Overview
+## Overvieww
 
 #### Goal
 If you play at the lottery the same combination as many others players, you will have to split the prize in case of winning.
